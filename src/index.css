@@ -25,6 +25,7 @@ font-display: swap;
   .max-container {
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 15px;
   }
 }
 
@@ -38,10 +39,10 @@ font-display: swap;
 
   /*Bold*/
   .text-title {
-    @apply font-archangels font-bold text-[62px]
+    @apply font-archangels font-bold text-[62px] leading-[100%]
   }
   .text-title-mob {
-    @apply font-archangels font-bold text-[30px]
+    @apply font-archangels font-bold text-[30px] leading-[90%]
   }
   /*Default*/
   .text-def {
@@ -49,5 +50,13 @@ font-display: swap;
   }
   .text-def-mob {
     @apply font-normal text-[16px] leading-[200%] text-black
+  }
+
+  /*Buttons*/
+  .text-btn {
+    @apply font-bold leading-[167%]
+  }
+  .text-btn-mob {
+    @apply font-bold leading-[200%]
   }
 }

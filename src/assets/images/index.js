@@ -11,7 +11,7 @@ import hp from './hp.svg'
 import img from './img.svg'
 import logo from './logo.svg'
 import screen from'./screen.png'
-import hero from './hero.png'
+import hero from './hero.svg'
 
 export {
 	bg_black,
