@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@font-face {
+  font-family: 'Archangelsk';
+  src: url("./fonts/ofont.ru_Archangelsk.woff2") format('woff2');
+  font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+}
+
+@layer utilities {
+  .text-mark {
+    @apply text-blue font-bold text-[18px] leading-[189%]
+  }
+  .text-mark-mob {
+    @apply text-blue font-bold text-[16px] leading-[200%]
+  }
+
+  /*Bold*/
+  .text-title {
+    @apply font-archangels font-bold text-[62px]
+  }
+  .text-title-mob {
+    @apply font-archangels font-bold text-[30px]
+  }
+  /*Default*/
+  .text-def {
+    @apply font-normal text-[18px] leading-[189%] text-black
+  }
+  .text-def-mob {
+    @apply font-normal text-[16px] leading-[200%] text-black
+  }
+}
