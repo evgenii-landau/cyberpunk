@@ -1,5 +1,6 @@
 import {Nav} from "./components/Nav.jsx";
 import {Hero} from "./sections/Hero.jsx";
+import {Info} from "./sections/Info.jsx";
 
 export const App = () => (
 	<main className='relative'>
@@ -7,11 +8,9 @@ export const App = () => (
 		<section>
 			<Hero/>
 		</section>
-		{/*<section>*/}
-		{/*	<div className='font-robBold'>*/}
-		{/*		AboutGame*/}
-		{/*	</div>*/}
-		{/*</section>*/}
+		<section>
+			<Info/>
+		</section>
 		{/*<section>*/}
 		{/*	<div className='text-def'>*/}
 		{/*		Events asd ad asd asdsad a*/}
