@@ -13,6 +13,9 @@ export default {
       colors: {
         blue: '#52bedc',
         yellow: '#f8f200'
+      },
+      screens: {
+        mob: '850px'
       }
     },
   },

@@ -13,7 +13,7 @@ export const Info = () => (
 		<div className='w-full grid grid-cols-[460px, 788px] grid-rows-2 gap-[32px] max-xl:grid-cols-[460px, 460px] max-xl:grid-rows-[auto] max-xl:justify-items-center'>
 			<img src={game_1} alt="game_screenshot"/>
 			<img src={game_2} alt="game_screenshot"/>
-			<img src={game_3} alt="game_screenshot" className='row-start-1 row-end-3 col-start-2 max-xl:row-start-2 max-xl:row-end-3 max-xl:col-start-1 max-xl:col-end-3 items-center'/>
+			<img src={game_3} alt="game_screenshot" className='row-start-1 row-end-3 col-start-2 max-xl:row-start-2 max-xl:row-end-3 max-xl:col-start-1 max-xl:col-end-3 items-center h-[100%]'/>
 		</div>
 	</section>
 )

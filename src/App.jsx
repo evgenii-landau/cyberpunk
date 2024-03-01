@@ -1,6 +1,7 @@
 import {Nav} from "./components/Nav.jsx";
 import {Hero} from "./sections/Hero.jsx";
 import {Info} from "./sections/Info.jsx";
+import {Play} from "./sections/Play.jsx";
 
 export const App = () => (
 	<main className='relative'>
@@ -11,11 +12,9 @@ export const App = () => (
 		<section>
 			<Info/>
 		</section>
-		{/*<section>*/}
-		{/*	<div className='text-def'>*/}
-		{/*		Events asd ad asd asdsad a*/}
-		{/*	</div>*/}
-		{/*</section>*/}
+		<section className='pt-[70px]'>
+			<Play/>
+		</section>
 	</main>
 )
 

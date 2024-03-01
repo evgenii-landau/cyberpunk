@@ -46,10 +46,10 @@ font-display: swap;
   }
   /*Default*/
   .text-def {
-    @apply font-normal text-[18px] leading-[189%] text-black
+    @apply font-normal text-[18px] leading-[189%]
   }
   .text-def-mob {
-    @apply font-normal text-[16px] leading-[200%] text-black
+    @apply font-normal text-[16px] leading-[200%] 
   }
 
   /*Buttons*/

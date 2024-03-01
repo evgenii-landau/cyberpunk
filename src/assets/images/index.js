@@ -1,4 +1,3 @@
-import bg_black from './bg-black.png'
 import bg_cyberpunk from './bg-cyberpuk.jpg'
 import bg_yellow from './bg-yellow.png'
 import cd_projects from './cd-projects.svg'
@@ -12,9 +11,10 @@ import img from './img.svg'
 import logo from './logo.svg'
 import screen from'./screen.png'
 import hero from './hero.svg'
+import ps_console from'./ps_4_console.svg'
+import xbox_console from'./xbox_console.svg'
 
 export {
-	bg_black,
 	bg_yellow,
 	bg_cyberpunk,
 	cd_projects,
@@ -28,4 +28,6 @@ export {
 	logo,
 	screen,
 	hero,
+	ps_console,
+	xbox_console
 }

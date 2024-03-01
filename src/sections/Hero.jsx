@@ -1,5 +1,4 @@
 import {hero} from "../assets/images/index.js";
-import {Button} from "../components/Button.jsx";
 
 
 export const Hero = () => {
