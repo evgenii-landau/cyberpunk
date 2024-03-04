@@ -15,7 +15,8 @@ export default {
         yellow: '#f8f200'
       },
       screens: {
-        mob: '850px'
+        mob: '850px',
+        tablet: '1130px'
       }
     },
   },

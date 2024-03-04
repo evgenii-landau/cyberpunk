@@ -1,6 +1,6 @@
 import {logo} from "../assets/images/index.js";
 import {Button} from "./Button.jsx";
-import {navData} from "../constants/nav-data.jsx";
+import {index} from "../constants/index.js";
 
 export const Nav = () => (
 
@@ -10,7 +10,7 @@ export const Nav = () => (
 				<img src={logo} alt="Logo" className='max-sm:mb-[10px]'/>
 			</a>
 			<ul className='flex gap-[40px]'>
-				{navData.map((item, index) => (
+				{index.map((item, index) => (
 					<li key={index}>
 						<a href="#!">
 							<img src={item.igmUrl} alt={item.alt}/>

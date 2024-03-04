@@ -3,7 +3,7 @@ import {ps_console, xbox_console} from "../assets/images/index.js";
 import {sale} from "../assets/icons/index.js";
 
 export const Play = () => (
-	<section className='bg-black pt-[15px]'>
+	<section className='bg-black pt-[15px] pb-[70px]'>
 		<div
 			className='max-container grid grid-cols-2 grid-rows-2 max-mob:grid-cols-1 max-mob:grid-row-3 max-mob:gap-[40px] max-mob:grid-rows-[auto]'>
 			{/*Title*/}
