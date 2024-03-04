@@ -1,4 +1,17 @@
-import {color, facebook, instagram, move, star, twitch, twitter, vk, you_tube} from "../assets/icons/index.js";
+import {
+	collections,
+	color,
+	disk,
+	facebook,
+	instagram,
+	move, pc, ps, stadia,
+	star,
+	twitch,
+	twitter,
+	vk,
+	wysiwyg, xbox,
+	you_tube
+} from "../assets/icons/index.js";
 
 
 export const index = [
@@ -43,5 +56,42 @@ export const Hp = [
 		imgURL: move,
 		alt: 'move',
 		text: 'Быстрые движения и плавный геймплей'
+	}
+]
+
+export const pay = [
+	{
+		imgURL: disk,
+		alt: 'disk',
+		text: 'Футляр с игровыми дисками'
+	},
+	{
+		imgURL: wysiwyg,
+		alt: 'wysiwyg',
+		text: 'Футляр с кодом для загрузки игры и дисками (pc)'
+	},
+	{
+		imgURL: collections,
+		alt: 'collections',
+		text: 'Справочник с информацией об игровом мире'
+	},
+]
+
+export const platforms = [
+	{
+		imgURL: pc,
+		alt: 'pc'
+	},
+	{
+		imgURL: xbox,
+		alt: 'xbox'
+	},
+	{
+		imgURL: stadia,
+		alt: 'stadia'
+	},
+	{
+		imgURL: ps,
+		alt: 'ps'
 	}
 ]
