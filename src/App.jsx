@@ -5,6 +5,7 @@ import {Play} from "./sections/Play.jsx";
 import {HP} from "./sections/HP.jsx";
 import {bg_cyberpunk} from "./assets/images/index.js";
 import {Pay} from "./sections/Pay.jsx";
+import {Company} from "./sections/Company.jsx";
 
 export const App = () => (
 	<main className='relative'>
@@ -28,6 +29,9 @@ export const App = () => (
 			<div className='py-[70px]'>
 				<Pay/>
 			</div>
+		</section>
+		<section>
+			<Company/>
 		</section>
 	</main>
 )
