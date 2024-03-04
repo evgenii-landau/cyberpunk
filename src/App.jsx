@@ -6,6 +6,7 @@ import {HP} from "./sections/HP.jsx";
 import {bg_cyberpunk} from "./assets/images/index.js";
 import {Pay} from "./sections/Pay.jsx";
 import {Company} from "./sections/Company.jsx";
+import {Footer} from "./components/Footer.jsx";
 
 export const App = () => (
 	<main className='relative'>
@@ -32,6 +33,9 @@ export const App = () => (
 		</section>
 		<section>
 			<Company/>
+		</section>
+		<section className='bg-black'>
+			<Footer/>
 		</section>
 	</main>
 )
