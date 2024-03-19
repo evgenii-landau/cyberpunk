@@ -1,8 +1,32 @@
-# React + Vite
+## Cyberpunk Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Этот проект представляет собой веб-сайт Cyberpunk, разработанный с использованием React, Tailwind CSS и Vite для быстрой сборки и разработки.
 
-Currently, two official plugins are available:
+## Описание
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Cyberpunk - это веб-сайт, вдохновленный киберпанком, футуристическими технологиями и научной фантастикой. На данном проекте практиковался Tailwind.
+
+## Основные функции
+
+Использование современных технологий, таких как React и Tailwind CSS, для создания динамичного пользовательского интерфейса.
+
+## Как использовать
+
+1. Установите зависимости:
+yarn
+
+2. Запустите приложение в режиме разработки:
+yarn dev
+
+3. Сборка приложения для развертывания:
+yarn build
+
+## Технологии
+
+- React
+- Tailwind CSS
+- Vite
+
+## Автор
+
+evgenii-landau
